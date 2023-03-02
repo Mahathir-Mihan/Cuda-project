@@ -1,0 +1,156 @@
+/* Mobile device */
+@media (max-width: 600px) {
+  /* Global Css  */
+  p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  section {
+    padding: 50px 0px;
+  }
+  .heading1,.heading2,.heading3,.heading4,.heading5,.heading6 {
+    margin-bottom: 25px;
+  }
+  .half-pg{
+    width: 100%;
+  }
+
+  h1,h2 {
+    font-size: 20px;
+    line-height: 17px;
+    text-align: center;
+  }
+  .sub-heading {
+    font-size: 17px;
+    line-height: 15px;
+  }
+  .underline {
+    width: 12%;
+  }
+  .btn {
+    width: 150px;
+    padding: 7px;
+    font-size: 12px;
+  }
+  .occu,.occup {
+    font-size: 16px;
+  }
+  /* Layout  */
+  [class*="col-s-"] {
+    float: left;
+  }
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+  /* Header part  */
+  .logo,
+  .menuebarbutton {
+    text-align: center;
+  }
+  .menuebarbutton a {
+    font-size: 12px;
+    max-width: 100%;
+  }
+  .heropart {
+    padding: 100px 0px;
+  }
+  .heropart h1 {
+    font-size: 20px;
+    line-height: 17px;
+  }
+  #header-h1-s{
+  	font-size: 20px;
+    line-height: 17px;
+    font-weight: 300px;
+    text-align: center;
+  }
+  /* service section  */
+  .service .box {
+    margin-top: 20px;
+  }
+  button{
+  	width: 50%;
+  }
+  .buttonbar button{
+  	padding: 2px 0px;
+  }
+  .service .box img {
+    height: 100px;
+  }
+  /* Team section  */
+  .team .box {
+    margin-top: 20px;
+  }
+  .team .box img {
+    max-width: 100%;
+  }
+  .team-icon i{
+    font-size: 14px;
+    padding: 7px;
+  }
+  .portfolio img {
+    max-width: 100%;
+  }
+  footer a{
+  	width: 14.28%;
+  	padding: 10px 0px;
+  	font-size: 10px;
+  	line-height: 7px;
+  	text-align: center;
+  }
+  footer a:active{
+  	background-color: rgb(19,15,71);
+	color: rgb(48,186,231);
+  }
+  .footbar{
+  	width: 100%;
+  	float: left;
+  	padding: 0px;
+  	margin: 10px 0px;
+  }
+  .spe-col-7{
+  	float: left;
+  	width: 14.28%
+  }
+  form {
+    width: 100%;
+  }
+  input,
+  textarea {
+    padding: 7px;
+    font-size: 14px;
+  }
+}
